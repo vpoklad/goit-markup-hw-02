@@ -19,6 +19,26 @@ body {
 .link {
   text-decoration: none;
 }
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--title-color);
+  background-color: #f5f4fa;
+
+  cursor: pointer;
+}
+.button.primary {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus {
+  color: #fff;
+  background-color: var(--accent-color);
+}
 
 /* Header */
 .logo {
@@ -90,6 +110,7 @@ body {
 }
 
 .button-hero {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -159,4 +180,21 @@ body {
 .address .link:hover,
 .address .link:focus {
   color: var(--accent-color);
+}
+
+/* Portfolio */
+.portfolio .link {
+  color: var(--text-color);
+}
+
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-color);
+}
+
+.portfolio .decription {
+  font-size: 16px;
+  line-height: 1.87;
 }
