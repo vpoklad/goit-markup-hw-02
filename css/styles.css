@@ -13,11 +13,15 @@ body {
   color: var(--text-color);
   letter-spacing: 0.03em;
 }
+address {
+  font-style: normal;
+}
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+  color: inherit;
 }
 .button {
   font-family: 'Roboto', sans-serif;
@@ -119,6 +123,10 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+.button-hero:hover,
+.button-hero:focus {
+  background-color: #188ce8;
+}
 
 /* Секция "чем мы занимаемся" */
 .features_list {
@@ -162,7 +170,6 @@ body {
   background-color: #2f303a;
 }
 .map-link {
-  font-style: normal;
   font-size: 14px;
   line-height: 24px;
   color: #fff;
